@@ -19,14 +19,14 @@ let package = Package(
     dependencies: [
         // Read Swift code
         .package(
-            url: "https://github.com/apple/swift-syntax.git",
-            from: "509.0.0"
+            url: "https://github.com/swiftlang/swift-syntax.git",
+            from: "601.0.0"
         ),
 
         // Format Swift code
         .package(
             url: "https://github.com/apple/swift-format.git",
-            from: "509.0.0"
+            from: "601.0.0"
         ),
 
         // Tools for macro development
@@ -38,7 +38,7 @@ let package = Package(
         // Tools for macro development
         .package(
             url: "https://github.com/pointfreeco/swift-macro-testing",
-            from: "0.2.1"
+            from: "0.6.3"
         ),
     ],
     targets: [
